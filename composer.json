@@ -1,0 +1,21 @@
+{
+    "name": "roslov/yii2-compact-file-target",
+    "description": "Ignores traces in FileTarget log.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","FileTarget","log"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Oleksandr Roslov",
+            "email": "tr@dupkiller.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "roslov\\log\\": "src/"
+        }
+    }
+}
